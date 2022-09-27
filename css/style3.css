@@ -1,0 +1,21 @@
+ @media screen and ( max-width:992px) {
+ 
+     .slider-box  h2{
+
+          font-size: 40px;
+          font-weight: 600;
+         
+         color: #07080a;
+         }
+         .slider-box  h3{
+         
+              font-size: 40px;
+              font-weight: 600;
+            
+             color: rgb(19, 2, 173);
+             }
+ }
+ @media screen and ( min-width:992px) {
+    
+
+ }

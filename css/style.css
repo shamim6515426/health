@@ -1,0 +1,537 @@
+
+ body{
+     font-family: 'Alegreya', serif;
+ }
+
+.img-home-nav{
+   width: 1200px;
+   height: auto;
+   margin-left: -110px;
+}
+.navbar-brand span{
+   color: green;
+}
+.navbar-brand{
+   font-size: 40px;
+   color: black;
+   font-weight: bold;
+}
+.nav-link{
+   font-size: 20px;
+   color: black !important;
+   margin: 4px;
+   transition: 0.8s;
+}
+.nav-link:hover{
+color: green !important;
+}
+
+
+
+
+.hope-nav-ber{
+   width: 800px;
+   height: auto;
+   margin-left: -100px;
+   padding: 10px;
+   
+ }
+ .footer-coll h2{
+   font-size: 20px;
+   color: black;
+   opacity: 0.9;
+ }
+ .blog-section{
+   padding: 10px;
+   font-size: 20px;
+ }
+.navber-contat{
+   width: 400px;
+   height: 350px;
+   margin-left:-40px ;
+}
+.contact-navber{
+   background: url(./img/18-home_default.jpg);
+   background-size: cover;
+   background-position: 100%;
+   width: 100%;
+   height: 100%;
+
+}
+.contact-navber label input{
+   background-color: transparent;
+   font-size: 20px;
+   color: black !important;
+   border: none;
+   font-weight: bold;
+   outline: none;
+   margin: 10px ;
+   border-bottom:3px solid firebrick ;
+}
+.contact-navber  a{
+   outline: none;
+   border: none;
+   font-size: 22px;
+   background-color: #009432;
+   padding: 10px 20px;
+   text-decoration: none;
+transition: 0.9s;
+border-radius: 25px;
+margin: 10px 0;
+color: white;
+width: 150px;
+}
+.contact-navber  a:hover{
+   background-color: gold;
+}
+ /* slider section */
+
+.slidere-head{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+         width: 100%;
+         height: 80vh;
+}  
+
+.slider-box {
+     width: 800px;
+     height: 70vh;
+     border-radius: 10px;
+
+}
+.btn-now{
+     font-size: 25px;
+     color: white;
+     padding: 10px 20px;
+     background-color: green;
+     border: none;
+     outline: none;
+     border-radius: 30px;
+     transition: 1s;
+}
+.btn-now:hover{
+     background-color: goldenrod;
+}
+
+.slider-box  h2{
+
+ font-size: 50px;
+ font-weight: bold;
+
+color: black;
+}
+.slider-box  h3{
+ text-align: end;
+     font-size: 40px;
+     font-weight: bold;
+     opacity: 0.9;
+    color: black;
+    }
+
+    .box-img{
+     position: absolute;
+    }
+    .text-box{
+     position: relative;
+     animation: sloderanimi 2s linear forwards ;
+     opacity: 0;
+     transform: translateY(-40px);
+    }
+    @keyframes sloderanimi {
+      100%{
+          opacity: 1;
+          transform: translateY(0);
+      }
+    }
+    .tre-pol{
+     display: flex;
+     justify-content: end;
+     align-items: center;
+     margin-top: 150px;
+     padding: 10px;
+    }
+    .header-mg{
+     text-align: center;
+    }
+    .header-mg img{
+     margin: 20px 0;
+    }
+    .header-mg .img-2{
+     margin: 30px 0;
+    }
+
+
+    /* about sextion */
+    .about-all{
+     background: url(./img/demo3-bg_title.png);
+     
+     
+     width: 400px;
+     height: 120px;
+     margin: auto;
+     background-repeat: no-repeat;
+    }
+
+
+    .about-all  p{
+    
+  
+     font-size: 16px;
+     text-align: center;
+    }
+    .about-all h2{
+     color: black;
+     font-size: 50px;
+     margin: 10px 0;
+     text-align: center;
+
+    }
+    .svg-logo{
+     display: flex;
+     justify-content: center;
+    
+    }
+    .logo-svg-1 {
+     margin:0 10px ;
+     cursor: pointer;
+    }
+    .logo-svg-1  svg{
+     text-align: center;
+     color: greenyellow !important;
+    }
+    .logo-svg-1 p{
+     font-size: 14px;
+     text-align: center;
+     transition: 1s;
+    }
+    .logo-svg-1 p:hover{
+      color: green;
+      text-decoration: underline;
+    }
+     /* service section */
+
+  .card-title{
+     font-size: 15px;
+     opacity: 0.9;
+     text-align: center;
+     text-transform: capitalize;
+  }  
+  .card-text{
+      text-align: center;
+      font-size: 15px;
+      opacity: 0.7;
+  }
+  .icon-card{
+     text-align: center;
+  }
+  .icon-card i{
+     font-size: 20px;
+     color: gold;
+     opacity: 0.9;
+     text-align: center;
+  }
+  .card-body h6{
+     font-size: 15px;
+     color: red;
+     opacity: 0.7;
+     text-align: center;
+  }
+  .card{
+     outline: none;
+     border:  none;
+     cursor: pointer;
+  }
+
+  .card-imglogo{
+     position:relative ;
+  }
+  .icon-logo{
+     position: relative;
+     bottom: 70px;
+     text-align: center;
+     background-color: rgb(223, 178, 178);
+     border-radius: 12px;
+     height: 60px;
+   
+     margin: auto;
+     opacity: 0;
+     transform: translateY(-40px);
+     transition: 0.5s;
+     
+  }
+
+  .icon-logo:hover{
+     opacity: 1;
+     transform: translateY(0);
+  }
+  .icon-logo i{
+     margin: 8px;
+     font-size: 27px;
+     color: rgb(33, 32, 122);
+  }
+  .baner-bg{
+   background:url(./img/demo3-bg1.png);
+  
+   background-repeat: no-repeat;
+   background-position: 75%;
+   background-size: cover;
+   width: 100%;
+   height: 80vh;
+   display: flex;
+   justify-content: end;
+   align-items: center;
+
+  }
+  .banner-text-box{
+   
+   max-width: 600px;
+   margin-left: auto;
+   padding: 10px;
+  }
+  .banner-text-box span {
+   font-size: 12px;
+
+  }
+  .banner-text-box p{
+   font-size: 18px;
+  }
+.banner-text-box small{
+   font-size: 20px;
+
+}
+.banner-text-box h1{
+   font-size: 40px;
+   font-weight: bold;
+   
+}
+.banner-text-box .btn-banner{
+   border: none;
+   outline: none;
+   font-size: 16px;
+   padding: 10px 20px;
+   text-align: center;
+   color: white;
+   background-color: #1e90ff;
+   border-radius: 28px;
+   margin: 2px;
+
+}
+.banner-text-box .btn-banner:hover{
+   background-color: #009432;
+}
+.div-img-1 img{
+   margin: 25px 0;
+   transition: 1s;
+}
+.div-img-1 img:hover{
+   transform: translateY(20px);
+}
+
+.draboul-banner.div-img-1 img{
+  margin: 20px 0;
+}
+
+.client-say{
+ background-image: url(./img/demo3-bg_testi.jpg);
+ background-repeat: no-repeat;
+ background-size:contain;
+
+ height: 100vh;
+ width: 110%;
+
+}
+.box-img-slider {
+   display:flex ;
+   justify-content: center;
+   align-items: center;
+
+}
+.box-img-slider img{
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   text-align: center;
+
+}
+.box-img-slider h3{
+    font-size: 25px;
+    opacity: 0.9;
+    color: black;
+} 
+.banner-section-box{
+    max-width: 700px;
+    margin: auto;
+    padding: 10px;
+}
+.img-box  img{
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   margin: 10px;
+
+}
+.img-box{
+justify-content: center;
+}
+.img-box h1{
+   font-size: 22px;
+   margin: 10px;
+}
+
+
+/* service product section */
+.card-section{
+       width: 100%;
+       height: 100%;
+       overflow: hidden;
+}
+.card-section img{
+   width: 100%;
+  transition: 1s;
+
+}
+.card-section img:hover{
+   transform:scale(1.1);
+}
+.cade-body {
+   padding: 10px;
+}
+.cade-body h5{
+   font-size: 20px;
+   text-transform: uppercase;
+   font-weight: 350;
+   cursor: pointer;
+
+}
+.cade-body h5:hover{
+   color: #009432;
+}
+.cade-body p{
+   font-size: 16px;
+
+}
+.cade-body h6{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.cade-body h6:hover{
+   color: green;
+}
+/* .footer sectiin */
+
+.img-footer{
+   width: 80px;
+   height: 80px;
+ overflow: hidden;
+ margin: 8px;
+
+}
+.img-footer img{
+   width: 100%;
+   transition: 1s;
+}
+.img-footer img:hover{
+   transform: scale(1.1);
+}
+.foter-section{
+   background-color: #dfe4ea;
+   
+   padding: 20px;
+}
+.chail-footer h2{
+   font-size: 20px;
+   text-transform: uppercase;
+   color: black;
+   opacity: 0.9;
+   margin: 5px 0;
+   
+}
+.footer-add p{
+   font-size: 17px;
+   font-size: 300;
+   color: black;
+   opacity: 0.9;
+}
+.footer-add span{
+   font-size: 18px;
+   font-weight: 700;
+}
+.footer-add  a{
+   font-size: 17px;
+   text-decoration: none;
+   color: black;
+   transition: 0.9s;
+}
+.footer-add  a:hover{
+   color: #1e90ff;
+}
+.footer-coll li{
+   list-style: none;
+}
+.footer-coll li a{
+   font-size: 17px;
+   color: black;
+   opacity: 0.9;
+   text-decoration: none;
+   transition: 0.9s;
+}
+.footer-coll li a:hover{
+   color: hsl(140, 85%, 42%);
+}
+.footer-1 h2{
+   font-size: 19px;
+   font-weight: 700;
+   margin: 5px 0;
+   color: black;
+
+}
+.footer-1 p{
+   font-size: 15px;
+   opacity: 0.9;
+}
+.form-icon label input{
+   border: none;
+   outline: none;
+   border: 1px solid forestgreen;
+   padding: 10px;
+   max-width: 300px;
+   border-radius:30px ;
+}
+.footer-button{
+   font-size: 18px;
+ 
+   border: none;
+   outline: none;
+   background-color: #084ee6;
+   color: white;
+   padding: 7px 10px;
+   border-radius: 30px;
+   transition: 1s;
+  
+
+}
+.footer-button:hover{
+   background-color: #f50cf5;
+}
+.footer-lest h2{
+   font-size: 23px;
+   color: black;
+   opacity: 0.9;
+}
+.footer-icon i{
+   font-size: 18px;
+   background-color: rgb(34, 38, 41);
+   color: white ;
+   margin: 10px ;
+   padding: 14px;
+   border-radius: 50%;
+   transition: 1s;
+}
+.footer-icon i:hover{
+   background-color: rgb(134, 216, 216);
+}
+
